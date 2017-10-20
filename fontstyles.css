@@ -1,0 +1,50 @@
+/*font-family*/
+body{
+	font-size: 10px;
+}
+h1{
+	font-family:'Indie Flower', cursive;
+}
+
+p{
+	font-family:'Raleway', sans-serif;
+	font-size: 2.0em;
+}
+
+
+/*font-size*/
+h1{
+	font-size:5.0em;
+}
+
+span {
+	font-size: 2.0em; /*This span is double the font size of the paragraph it is in. It's dynamic  */
+}
+
+/* font-weight is how thick the lines are, eg bold, normal. */
+p{
+	font-weight:normal;
+}
+
+/* line-height - same as line spacing in microsoft word eg 1.5 or 2.0 */
+p{
+	line-height:1.5;
+}
+
+/* text-align  */
+h1{
+	text-align:right;
+}
+
+p{
+	text-align: center;
+}
+
+/* text-decoration is underline, overline or strikethrough */
+p{
+	text-decoration:underline;
+}
+h1{
+	text-decoration:line-through;
+}
+

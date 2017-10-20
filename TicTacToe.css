@@ -1,0 +1,36 @@
+td{
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	padding: 10px;
+	background: pink;
+}
+table{
+	margin:auto;
+}
+h1{
+	text-align:center;
+}
+
+#row1{
+	border-bottom: 2px solid black;
+}
+
+#row2{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#row3{
+	border-top: 2px solid black;
+}
+
+.vertical{
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+.horizontal{ 
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
