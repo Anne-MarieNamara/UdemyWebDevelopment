@@ -1,0 +1,54 @@
+/*
+border color: #bdc3c7
+date color: #3498db
+h2 color #2c3e50
+font: source sans pro */
+body{
+	max-width:700px;
+	width: 80%; /*put both of these in because it will do 700px until 80% is less than 700px so it uses both  */
+	margin:20px auto;
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	
+	
+}
+
+div{
+	font-family: 'Source Sans Pro', sans-serif;
+	/*margin-left:15px;*/
+	
+}
+
+h2{
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	
+}
+
+h4{
+	color:#3498db;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 0.2rem;
+	
+}
+
+.smallBorder{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+	
+}
+
+/*hr{
+	margin-left: 15px;
+	margin-right: 15px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+*/
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
